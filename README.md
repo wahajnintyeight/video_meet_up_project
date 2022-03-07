@@ -33,9 +33,10 @@ Add your Twilio Credentials to the `.env` file. If you do not have a Twilio acco
 You’ll need to copy the Account SID from your [account dashboard](https://www.twilio.com/console). An API Key and API Secret will need to be created from your [API Keys list](https://www.twilio.com/console/video/project/api-keys/create).
 
 ```
-TWILIO_ACCOUNT_SID="Insert your Account SID"
-TWILIO_API_KEY_SID="Insert your API Key"
-TWILIO_API_KEY_SECRET="Insert your API Secret"
+TWILIO_ACCOUNT_SID="AC1e621d68b8aeba7616956d77914ca7ae"
+TWILIO_API_KEY_SID="SK4626d0beb9807bad44ce8bbd325856c9"
+TWILIO_API_KEY_SECRET="Ot4uKKO6Qwpt7RAOKJ9Zd5OdG0qP5XeQ"
+
 ```
 
 Lastly, clear the Laravel cache to ensure that your dotenv variable are loaded:

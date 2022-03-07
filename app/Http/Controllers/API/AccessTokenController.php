@@ -15,7 +15,7 @@ class AccessTokenController extends Controller
         $accountSid = env('TWILIO_ACCOUNT_SID');
         $apiKeySid = env('TWILIO_API_KEY_SID');
         $apiKeySecret = env('TWILIO_API_KEY_SECRET');
-
+    
         $identity = uniqid();
 
         // Create an Access Token
